@@ -1,0 +1,33 @@
+{
+  "name": "netflixRn",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "react": "16.3.0-rc.0",
+    "react-native": "0.54.3",
+    "react-native-circular-progress": "^0.2.0",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-orientation": "^3.1.3",
+    "react-native-side-menu": "^1.1.3",
+    "react-native-swiper": "^1.5.13",
+    "react-native-tab-view": "0.0.77",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-video": "^2.0.0",
+    "react-native-video-controls": "^2.2.1",
+    "react-navigation": "^1.5.9"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.0-rc.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
